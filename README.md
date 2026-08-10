@@ -14,21 +14,21 @@ Note that, the author doesn't know how to name this model correctly, so the name
 
 ## Table of Contents
 
-- [Section 0: Introduction]()
-- [Section 1: OCSSN main construction]()
-    - [Section 1.1: Analysis of each variable]()
-- [Section 2: Description of every function]()
-    - [Section 2.1: Torus Generation]()
-    - [Section 2.2: The function that determines the genus of a surface g]()
-    - [Section 2.3: Vertex normalization]()
-    - [Section 2.4: All Pachner moves]()
-    - [Section 2.5: Graphs function construction]()
-    - [Section 2.6: Chain]()
-    - [Section 2.7: Dataset Generation]()
-    - [Section 2.8: Converters]()
-- [Section 3: Summary]()
-- [Section 4: Limitations]()
-- [Section 5: Future Work]()
+- [Section 0: Introduction](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-0--introduction-)
+- [Section 1: OCSSN main construction](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-1--ocssn-main-construction-)
+    - [Section 1.1: Analysis of each variable](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-11--a-complete-analysis-of-each-variable-)
+- [Section 2: Description of every function](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-2--description-of-every-function-)
+    - [Section 2.1: Torus Generation](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-21--torus-generation-)
+    - [Section 2.2: The function that determines the genus of a surface g](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-22--the-function-that-determines-the-genus-of-a-surface-g-)
+    - [Section 2.3: Vertex normalization](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-23--vertex-normalization-)
+    - [Section 2.4: All Pachner moves](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-24--all-pachner-moves-)
+    - [Section 2.5: Graphs function construction](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-25--graphs-function-construction-)
+    - [Section 2.6: Chain](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-26--chain-)
+    - [Section 2.7: Dataset Generation](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-27--dataset-generation-)
+    - [Section 2.8: Converters](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-28--converters-)
+- [Section 3: Summary](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-3--summary-)
+- [Section 4: Limitations](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-4--limitations-)
+- [Section 5: Future Work](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-5--future-work-)
 
 # Section 0 | Introduction | 
 
@@ -38,7 +38,7 @@ Goals, motivations and problems of the project at the PoC stage:
 
 * **Goals**: show alternative way to solve a single problem from the point of view of different neural network architectures
 
-* **Problems**: the main problem is to prove invariance under remeshing, but the limitation must be considered (link)
+* **Problems**: the main problem is to prove invariance under remeshing, but the [limitation](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-4--limitations-) must be considered
 
 ---
 
