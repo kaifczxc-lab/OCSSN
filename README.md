@@ -4,8 +4,6 @@
 
 Author: [siritoriyowai](https://github.com/kaifczxc-lab)
 
-Tags: **Tensor Networks. Topological DL. TQFT-Inspired Net**
-
 Current stage: **Proof-of-Concept**
 
 This report focuses on the architectural Proof of Concept, **large-scale benchmarks will be provided in future iterations**
