@@ -48,9 +48,9 @@ Main subject is: Higher Mathematics (Topology. Linear Algebra. Topological Quant
 
 * [2] [Fukuma, M., Hosono, S., & Kawai, H. (1994). Lattice Topological Field Theory in Two Dimensions. Commun. Math. Phys. 161, 157–176](https://arxiv.org/abs/hep-th/9212154)
 
-* [3] [Atiyah, M. F. (1988). Topological quantum field theory. Publications Mathématiques de l'IHÉS, 68, 175-186](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyahtqft.pdf)
-
 **Materials for learning / Further reading**: 
+
+* [3] [Atiyah, M. F. (1988). Topological quantum field theory. Publications Mathématiques de l'IHÉS, 68, 175-186](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyahtqft.pdf)
 
 * [4] ["Frobenius Algebras and 2D Topological Quantum Field Theories" By Joachim Kock](https://math.mit.edu/~hrm/palestine/koch-frobenius-algebras.pdf)
 
