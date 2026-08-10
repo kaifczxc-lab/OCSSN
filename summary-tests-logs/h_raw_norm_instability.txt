@@ -1,0 +1,1076 @@
+dataset generation report (seed=33)
+[icosahedron] total=66 | 1-3=22 | 3-1=19 | 2-2=23 | 3-1->2-2_fallback=2 | no-op=0 | g-mismatch=0 | mesh_tris=[20..30], final=26
+real_flip_rate=100.0%  noop_rate=0.0%
+[hexabipyramid] total=66 | 1-3=18 | 3-1=23 | 2-2=21 | 3-1->2-2_fallback=1 | no-op=3 | g-mismatch=0 | mesh_tris=[2..18], final=2
+real_flip_rate=95.5%  noop_rate=4.5%
+[octahedron] total=66 | 1-3=21 | 3-1=17 | 2-2=25 | 3-1->2-2_fallback=3 | no-op=0 | g-mismatch=0 | mesh_tris=[6..18], final=16
+real_flip_rate=100.0%  noop_rate=0.0%
+[torus] total=200 | 1-3=47 | 3-1=46 | 2-2=78 | 3-1->2-2_fallback=24 | no-op=5 | g-mismatch=0 | mesh_tris=[14..26], final=20
+real_flip_rate=97.5%  noop_rate=2.5%
+============================================================
+dataset generation report (seed=34)
+[icosahedron] total=66 | 1-3=13 | 3-1=18 | 2-2=33 | 3-1->2-2_fallback=2 | no-op=0 | g-mismatch=0 | mesh_tris=[10..22], final=10
+real_flip_rate=100.0%  noop_rate=0.0%
+[hexabipyramid] total=66 | 1-3=14 | 3-1=19 | 2-2=18 | 3-1->2-2_fallback=2 | no-op=13 | g-mismatch=0 | mesh_tris=[2..14], final=2
+real_flip_rate=80.3%  noop_rate=19.7%
+[octahedron] total=66 | 1-3=19 | 3-1=17 | 2-2=26 | 3-1->2-2_fallback=2 | no-op=2 | g-mismatch=0 | mesh_tris=[4..14], final=12
+real_flip_rate=97.0%  noop_rate=3.0%
+[torus] total=200 | 1-3=61 | 3-1=46 | 2-2=76 | 3-1->2-2_fallback=17 | no-op=0 | g-mismatch=0 | mesh_tris=[18..48], final=48
+real_flip_rate=100.0%  noop_rate=0.0%
+============================================================
+main_seed=33
+seed=33
+Trainset: sphere=159, torus=159
+Analysis: label=0 V=10 E=24 F=16
+h raw norm: 55.60208511352539
+h_norm = 1.0
+h raw norm: 1085.3865966796875
+h_norm = 0.9999999403953552
+h raw norm: 13.236515998840332
+h_norm = 1.0
+h raw norm: 460.314697265625
+h_norm = 0.9999999403953552
+h raw norm: 115051.0078125
+h_norm = 1.0
+h raw norm: 19.175397872924805
+h_norm = 0.9999999403953552
+h raw norm: 106.13041687011719
+h_norm = 1.0
+h raw norm: 166157520.0
+h_norm = 1.0
+h raw norm: 12.159354209899902
+h_norm = 0.9999999403953552
+h raw norm: 13.634031295776367
+h_norm = 1.0
+h raw norm: 6279.7763671875
+h_norm = 1.0
+h raw norm: 11.826648712158203
+h_norm = 1.0
+h raw norm: 20160956.0
+h_norm = 1.0
+h raw norm: 14.524453163146973
+h_norm = 1.0
+h raw norm: 12.53172492980957
+h_norm = 1.0
+h raw norm: 2054981.0
+h_norm = 1.0
+h raw norm: 732.5360107421875
+h_norm = 1.0
+h raw norm: 13.340633392333984
+h_norm = 1.0
+h raw norm: 12.986577987670898
+h_norm = 1.0
+h raw norm: 1557.7275390625
+h_norm = 1.0
+h raw norm: 12681.9169921875
+h_norm = 0.9999999403953552
+h raw norm: 12574949.0
+h_norm = 1.0
+h raw norm: 12.629312515258789
+h_norm = 1.0
+h raw norm: 13.039878845214844
+h_norm = 1.0
+h raw norm: 107.9617691040039
+h_norm = 1.0
+h raw norm: 1987372.375
+h_norm = 1.0
+h raw norm: 2049.824462890625
+h_norm = 1.0
+h raw norm: 1141185.625
+h_norm = 1.0
+h raw norm: 16.334003448486328
+h_norm = 1.0
+h raw norm: 428.9708557128906
+h_norm = 1.0
+h raw norm: 1390.882080078125
+h_norm = 1.0
+h raw norm: 16.874738693237305
+h_norm = 0.9999998807907104
+h raw norm: 12.66287899017334
+h_norm = 1.0
+h raw norm: 1603.5570068359375
+h_norm = 1.0
+h raw norm: 392946.90625
+h_norm = 1.0
+h raw norm: 15.49837589263916
+h_norm = 0.9999999403953552
+h raw norm: 1523038.625
+h_norm = 1.0
+h raw norm: 8674.162109375
+h_norm = 0.9999999403953552
+h raw norm: 11.929656982421875
+h_norm = 0.9999999403953552
+h raw norm: 122.35760498046875
+h_norm = 0.9999999403953552
+h raw norm: 1327785.75
+h_norm = 1.0
+h raw norm: 12.338662147521973
+h_norm = 1.0
+h raw norm: 791.8758544921875
+h_norm = 1.0
+h raw norm: 22449320.0
+h_norm = 1.0
+h raw norm: 739.79833984375
+h_norm = 1.0
+h raw norm: 77.54869079589844
+h_norm = 1.0
+h raw norm: 202549.90625
+h_norm = 1.0
+h raw norm: 90.1329345703125
+h_norm = 1.0
+h raw norm: 782.488037109375
+h_norm = 1.0
+h raw norm: 14.162192344665527
+h_norm = 1.0
+h raw norm: 11.957222938537598
+h_norm = 1.0
+h raw norm: 1118201.125
+h_norm = 1.0
+h raw norm: 12.792867660522461
+h_norm = 1.0
+h raw norm: 3311716.75
+h_norm = 0.9999999403953552
+h raw norm: 2205.3896484375
+h_norm = 1.0
+h raw norm: 151929168.0
+h_norm = 1.0
+h raw norm: 9669.8466796875
+h_norm = 1.0
+h raw norm: 11.180337905883789
+h_norm = 0.9999999403953552
+h raw norm: 15380239.0
+h_norm = 1.0
+h raw norm: 138.4959716796875
+h_norm = 0.9999999403953552
+h raw norm: 13.247077941894531
+h_norm = 1.0
+h raw norm: 884.0836181640625
+h_norm = 1.0
+h raw norm: 24.448810577392578
+h_norm = 1.0
+h raw norm: 19098.5625
+h_norm = 1.0
+h raw norm: 25.821847915649414
+h_norm = 1.0
+h raw norm: 14628114.0
+h_norm = 1.0
+h raw norm: 177115.921875
+h_norm = 1.0
+h raw norm: 13.712584495544434
+h_norm = 1.0
+h raw norm: 83.7699966430664
+h_norm = 0.9999999403953552
+h raw norm: 12.811546325683594
+h_norm = 1.0
+h raw norm: 94566.7578125
+h_norm = 0.9999999403953552
+h raw norm: 22909.677734375
+h_norm = 1.0
+h raw norm: 194935.859375
+h_norm = 1.0
+h raw norm: 12.81298542022705
+h_norm = 1.0
+h raw norm: 18815192.0
+h_norm = 1.0
+h raw norm: 1802708.125
+h_norm = 1.0
+h raw norm: 14.193570137023926
+h_norm = 1.0
+h raw norm: 9828.66796875
+h_norm = 1.0
+h raw norm: 11.568157196044922
+h_norm = 1.0
+h raw norm: 15.197178840637207
+h_norm = 1.0
+h raw norm: 15.595558166503906
+h_norm = 1.0
+h raw norm: 124841.984375
+h_norm = 1.0
+h raw norm: 13.259307861328125
+h_norm = 1.0
+h raw norm: 13.261123657226562
+h_norm = 0.9999999403953552
+h raw norm: 1444762.5
+h_norm = 0.9999999403953552
+h raw norm: 10980.0732421875
+h_norm = 1.0
+h raw norm: 139536.546875
+h_norm = 1.0
+h raw norm: 171.56646728515625
+h_norm = 0.9999999403953552
+h raw norm: 11.568366050720215
+h_norm = 1.0
+h raw norm: 6365.09033203125
+h_norm = 1.0
+h raw norm: 201306.59375
+h_norm = 1.0
+h raw norm: 75.82194519042969
+h_norm = 0.9999999403953552
+h raw norm: 12191.5048828125
+h_norm = 1.0
+h raw norm: 12.81536865234375
+h_norm = 1.0
+h raw norm: 11.180341720581055
+h_norm = 1.0
+h raw norm: 682.9695434570312
+h_norm = 1.0
+h raw norm: 125.84683227539062
+h_norm = 1.0
+h raw norm: 1024955.625
+h_norm = 1.0
+h raw norm: 8070.64599609375
+h_norm = 1.0
+eps_v_check | step=100 S=4.8322 min=0.5633 max=1.6227
+h raw norm: 81233.4609375
+h_norm = 0.9999999403953552
+h raw norm: 9303910.0
+h_norm = 1.0
+h raw norm: 30311.19140625
+h_norm = 1.0
+h raw norm: 14.615877151489258
+h_norm = 1.0
+h raw norm: 240702.953125
+h_norm = 1.0
+h raw norm: 117390.234375
+h_norm = 1.0
+h raw norm: 918.3705444335938
+h_norm = 1.0
+h raw norm: 15.758031845092773
+h_norm = 1.0
+h raw norm: 13.27647876739502
+h_norm = 1.0
+h raw norm: 17698.80859375
+h_norm = 0.9999999403953552
+h raw norm: 14.19804859161377
+h_norm = 1.0
+h raw norm: 17.616683959960938
+h_norm = 1.0
+h raw norm: 14.933967590332031
+h_norm = 0.9999999403953552
+h raw norm: 2926768.25
+h_norm = 1.0
+h raw norm: 11.180336952209473
+h_norm = 1.0
+h raw norm: 12.81368637084961
+h_norm = 1.0
+h raw norm: 2020635.5
+h_norm = 1.0
+h raw norm: 1541927.125
+h_norm = 0.9999999403953552
+h raw norm: 18.720962524414062
+h_norm = 0.9999999403953552
+h raw norm: 12.38421630859375
+h_norm = 1.0
+h raw norm: 12.383618354797363
+h_norm = 1.0
+h raw norm: 14.688386917114258
+h_norm = 1.0
+h raw norm: 11.968683242797852
+h_norm = 1.0
+h raw norm: 16770082.0
+h_norm = 1.0
+h raw norm: 20714748.0
+h_norm = 1.0
+h raw norm: 12.383370399475098
+h_norm = 1.0
+h raw norm: 2674493.5
+h_norm = 0.9999999403953552
+h raw norm: 22.014310836791992
+h_norm = 0.9999999403953552
+h raw norm: 61597.0625
+h_norm = 1.0
+h raw norm: 11.180340766906738
+h_norm = 1.0
+h raw norm: 61.08557891845703
+h_norm = 1.0
+h raw norm: 13.27540111541748
+h_norm = 0.9999999403953552
+h raw norm: 13.27155590057373
+h_norm = 1.0
+h raw norm: 1047.9927978515625
+h_norm = 1.0
+h raw norm: 209606.796875
+h_norm = 0.9999999403953552
+h raw norm: 11324.2314453125
+h_norm = 1.0000001192092896
+h raw norm: 97.21394348144531
+h_norm = 1.0
+h raw norm: 986.6015014648438
+h_norm = 1.0
+h raw norm: 12.383158683776855
+h_norm = 1.0
+h raw norm: 16737481.0
+h_norm = 1.0
+h raw norm: 52.75564956665039
+h_norm = 1.0
+h raw norm: 15.361546516418457
+h_norm = 1.0
+h raw norm: 13.266033172607422
+h_norm = 0.9999999403953552
+h raw norm: 135814.109375
+h_norm = 0.9999999403953552
+h raw norm: 227191.1875
+h_norm = 1.0
+h raw norm: 17.772092819213867
+h_norm = 1.0
+h raw norm: 17048122.0
+h_norm = 1.0
+h raw norm: 2423259.25
+h_norm = 1.0
+h raw norm: 18.100067138671875
+h_norm = 1.0
+h raw norm: 110.64815521240234
+h_norm = 0.9999998807907104
+h raw norm: 15.692873001098633
+h_norm = 0.9999999403953552
+h raw norm: 13.256072998046875
+h_norm = 0.9999999403953552
+h raw norm: 11652.3447265625
+h_norm = 1.0
+h raw norm: 11.968420028686523
+h_norm = 1.0
+h raw norm: 5116.7861328125
+h_norm = 1.0
+h raw norm: 1073995.875
+h_norm = 1.0
+h raw norm: 19.471532821655273
+h_norm = 0.9999999403953552
+h raw norm: 12.383066177368164
+h_norm = 1.0
+h raw norm: 66.28730773925781
+h_norm = 0.9999999403953552
+h raw norm: 9281.986328125
+h_norm = 0.9999999403953552
+h raw norm: 87.7431869506836
+h_norm = 1.0
+h raw norm: 12.382841110229492
+h_norm = 0.9999999403953552
+h raw norm: 13.715042114257812
+h_norm = 1.0
+h raw norm: 13.715189933776855
+h_norm = 1.0
+h raw norm: 14633097.0
+h_norm = 1.0
+h raw norm: 12.383143424987793
+h_norm = 1.0
+h raw norm: 13.288166046142578
+h_norm = 1.0
+h raw norm: 87935264.0
+h_norm = 1.0
+h raw norm: 12.812016487121582
+h_norm = 1.0
+h raw norm: 1019.7886352539062
+h_norm = 0.9999999403953552
+h raw norm: 6.525279521942139
+h_norm = 1.0
+h raw norm: 1817664.375
+h_norm = 1.0
+h raw norm: 22128308.0
+h_norm = 1.0
+h raw norm: 14.860897064208984
+h_norm = 1.0
+h raw norm: 9589.9296875
+h_norm = 1.0
+h raw norm: 57044.50390625
+h_norm = 0.9999998807907104
+h raw norm: 14.195229530334473
+h_norm = 1.0
+h raw norm: 14.159988403320312
+h_norm = 1.0
+h raw norm: 13.278220176696777
+h_norm = 0.9999999403953552
+h raw norm: 12.358232498168945
+h_norm = 1.0
+h raw norm: 12.356646537780762
+h_norm = 0.9999999403953552
+h raw norm: 533.950927734375
+h_norm = 1.0
+h raw norm: 11.180336952209473
+h_norm = 1.0
+h raw norm: 137.15805053710938
+h_norm = 1.0
+h raw norm: 14.19336223602295
+h_norm = 1.0
+h raw norm: 13.21456527709961
+h_norm = 1.0
+h raw norm: 17.45333480834961
+h_norm = 1.0
+h raw norm: 21220.802734375
+h_norm = 0.9999999403953552
+h raw norm: 15.324267387390137
+h_norm = 1.0
+h raw norm: 13.199426651000977
+h_norm = 0.9999999403953552
+h raw norm: 1051.2467041015625
+h_norm = 1.0
+h raw norm: 71.48799133300781
+h_norm = 0.9999999403953552
+h raw norm: 69123.9765625
+h_norm = 1.0
+h raw norm: 1023213.5
+h_norm = 0.9999999403953552
+h raw norm: 100726.1328125
+h_norm = 1.0
+h raw norm: 13.188459396362305
+h_norm = 0.9999999403953552
+h raw norm: 12.344874382019043
+h_norm = 1.0
+h raw norm: 13.630834579467773
+h_norm = 1.0
+h raw norm: 11.55561351776123
+h_norm = 0.9999999403953552
+h raw norm: 12.758434295654297
+h_norm = 0.9999999403953552
+eps_v_check | step=200 S=4.8377 min=0.5648 max=1.6269
+h raw norm: 13.202256202697754
+h_norm = 1.0
+h raw norm: 1617.52197265625
+h_norm = 1.0
+h raw norm: 1368.8792724609375
+h_norm = 1.0
+h raw norm: 12.757570266723633
+h_norm = 1.0
+h raw norm: 1633.738037109375
+h_norm = 0.9999999403953552
+h raw norm: 12.343271255493164
+h_norm = 1.0
+h raw norm: 111.02172088623047
+h_norm = 0.9999999403953552
+h raw norm: 18.4686336517334
+h_norm = 1.0
+h raw norm: 118773.7890625
+h_norm = 1.0
+h raw norm: 12.343527793884277
+h_norm = 1.0
+h raw norm: 1094.480712890625
+h_norm = 1.0
+h raw norm: 168.5792694091797
+h_norm = 0.9999999403953552
+h raw norm: 29.380054473876953
+h_norm = 1.0
+h raw norm: 18408494.0
+h_norm = 1.0
+h raw norm: 85530.625
+h_norm = 1.0
+h raw norm: 13.183619499206543
+h_norm = 1.0
+h raw norm: 6231.01416015625
+h_norm = 1.0
+h raw norm: 11.942386627197266
+h_norm = 1.0
+h raw norm: 11.180337905883789
+h_norm = 1.0
+h raw norm: 13.193750381469727
+h_norm = 1.0
+h raw norm: 864.9674682617188
+h_norm = 1.0
+h raw norm: 654.177001953125
+h_norm = 1.0
+h raw norm: 12.754922866821289
+h_norm = 1.0
+h raw norm: 87.40321350097656
+h_norm = 1.0
+h raw norm: 95969.671875
+h_norm = 1.0
+h raw norm: 13.18897819519043
+h_norm = 1.0
+h raw norm: 199249856.0
+h_norm = 0.9999999403953552
+h raw norm: 13.193137168884277
+h_norm = 1.0
+h raw norm: 767.8311767578125
+h_norm = 1.0
+h raw norm: 143.2625732421875
+h_norm = 0.9999999403953552
+h raw norm: 172505.890625
+h_norm = 0.9999999403953552
+h raw norm: 15.151266098022461
+h_norm = 1.0
+h raw norm: 897.5835571289062
+h_norm = 0.9999999403953552
+h raw norm: 16.810245513916016
+h_norm = 0.9999999403953552
+h raw norm: 120.27141571044922
+h_norm = 1.0
+h raw norm: 2221687.0
+h_norm = 1.0
+h raw norm: 970524.1875
+h_norm = 1.0
+h raw norm: 937139.125
+h_norm = 1.0
+h raw norm: 929.9407348632812
+h_norm = 1.0
+h raw norm: 119530.6328125
+h_norm = 1.0
+h raw norm: 311255.65625
+h_norm = 0.9999999403953552
+h raw norm: 103283200.0
+h_norm = 1.0
+h raw norm: 95.96247863769531
+h_norm = 1.0
+h raw norm: 1227734.75
+h_norm = 1.0
+h raw norm: 14.747199058532715
+h_norm = 1.0
+h raw norm: 100513.0
+h_norm = 1.0
+h raw norm: 104573.5703125
+h_norm = 0.9999999403953552
+h raw norm: 838378.8125
+h_norm = 1.0
+h raw norm: 1406.6343994140625
+h_norm = 1.0
+h raw norm: 12.75650691986084
+h_norm = 1.0
+h raw norm: 12.756486892700195
+h_norm = 1.0
+h raw norm: 165171.71875
+h_norm = 0.9999998807907104
+h raw norm: 15.838411331176758
+h_norm = 1.0
+h raw norm: 60.92887878417969
+h_norm = 1.0
+h raw norm: 13.183196067810059
+h_norm = 0.9999999403953552
+h raw norm: 16.18214988708496
+h_norm = 1.0
+h raw norm: 15.542448043823242
+h_norm = 0.9999999403953552
+h raw norm: 2838706.25
+h_norm = 1.0
+h raw norm: 887.769775390625
+h_norm = 1.0
+h raw norm: 12.754143714904785
+h_norm = 1.0
+h raw norm: 13.623027801513672
+h_norm = 0.9999999403953552
+h raw norm: 85513.96875
+h_norm = 1.0
+h raw norm: 1174448.875
+h_norm = 0.9999998807907104
+h raw norm: 12.754172325134277
+h_norm = 1.0
+h raw norm: 2226358.75
+h_norm = 1.0
+h raw norm: 742.0341796875
+h_norm = 1.0
+h raw norm: 12.341154098510742
+h_norm = 0.9999999403953552
+h raw norm: 17.830364227294922
+h_norm = 0.9999999403953552
+h raw norm: 16.527219772338867
+h_norm = 1.0
+h raw norm: 53.07235336303711
+h_norm = 1.0
+h raw norm: 15.108370780944824
+h_norm = 0.9999999403953552
+h raw norm: 55.3753776550293
+h_norm = 1.0
+h raw norm: 26392.259765625
+h_norm = 1.0
+h raw norm: 63766.8359375
+h_norm = 1.0
+h raw norm: 10808.66015625
+h_norm = 1.0
+h raw norm: 12.024680137634277
+h_norm = 1.0
+h raw norm: 12.000848770141602
+h_norm = 1.0
+h raw norm: 1754.67333984375
+h_norm = 1.0
+h raw norm: 114.65056610107422
+h_norm = 1.0
+h raw norm: 1190182.625
+h_norm = 1.0
+h raw norm: 7544.46240234375
+h_norm = 1.0
+h raw norm: 954.28662109375
+h_norm = 1.0
+h raw norm: 66246.15625
+h_norm = 0.9999999403953552
+h raw norm: 1245.58154296875
+h_norm = 1.0
+h raw norm: 3679.241455078125
+h_norm = 1.0
+h raw norm: 4656.2939453125
+h_norm = 1.0
+h raw norm: 1730463.25
+h_norm = 0.9999998807907104
+h raw norm: 16.597938537597656
+h_norm = 1.0
+h raw norm: 11.62021541595459
+h_norm = 0.9999999403953552
+h raw norm: 954174.0
+h_norm = 1.0
+h raw norm: 12.797454833984375
+h_norm = 1.0
+h raw norm: 1125.1864013671875
+h_norm = 0.9999999403953552
+h raw norm: 6019.0419921875
+h_norm = 1.0
+h raw norm: 7747.95751953125
+h_norm = 1.0
+h raw norm: 112825.359375
+h_norm = 1.0
+h raw norm: 474.6161804199219
+h_norm = 1.0
+h raw norm: 2464.0478515625
+h_norm = 1.0
+h raw norm: 12.711776733398438
+h_norm = 1.0
+h raw norm: 15.607259750366211
+h_norm = 0.9999999403953552
+h raw norm: 13.321660995483398
+h_norm = 0.9999999403953552
+eps_v_check | step=300 S=4.9105 min=0.5738 max=1.6511
+h raw norm: 12.459589004516602
+h_norm = 1.0
+h raw norm: 37.58490753173828
+h_norm = 1.0
+h raw norm: 82.60398864746094
+h_norm = 1.0
+h raw norm: 127025560.0
+h_norm = 0.9999999403953552
+h raw norm: 63973.98046875
+h_norm = 1.0
+h raw norm: 4970.52978515625
+h_norm = 1.0
+h raw norm: 12.22912311553955
+h_norm = 1.0
+h raw norm: 3262.98779296875
+h_norm = 1.0
+h raw norm: 14.520963668823242
+h_norm = 1.0
+h raw norm: 1068585.125
+h_norm = 1.0
+h raw norm: 20898546.0
+h_norm = 1.0
+h raw norm: 89967752.0
+h_norm = 0.9999999403953552
+h raw norm: 108.2214584350586
+h_norm = 1.0
+h raw norm: 12.654032707214355
+h_norm = 1.0
+h raw norm: 17.640525817871094
+h_norm = 1.0
+h raw norm: 64.74242401123047
+h_norm = 1.0
+h raw norm: 1973582.125
+h_norm = 1.0
+h raw norm: 11.998188018798828
+h_norm = 1.0
+h raw norm: 16.654571533203125
+h_norm = 0.9999999403953552
+OCSSN ep=0, loss=0.7182, train_acc=50.00%
+GNN ep=0, loss=0.7084, train_acc=50.00%
+TNN ep=0, loss=0.6895, train_acc=59.12%
+h raw norm: 12.680234909057617
+h_norm = 1.0
+h raw norm: 111.06755065917969
+h_norm = 0.9999999403953552
+h raw norm: 12.427358627319336
+h_norm = 0.9999999403953552
+h raw norm: 646.5874633789062
+h_norm = 0.9999999403953552
+h raw norm: 48559.30078125
+h_norm = 1.0
+h raw norm: 17.568925857543945
+h_norm = 0.9999999403953552
+h raw norm: 12.674314498901367
+h_norm = 1.0
+h raw norm: 176168512.0
+h_norm = 0.9999999403953552
+h raw norm: 11.786600112915039
+h_norm = 1.0
+h raw norm: 106.17889404296875
+h_norm = 1.0
+h raw norm: 13.10643482208252
+h_norm = 1.0
+h raw norm: 11.580809593200684
+h_norm = 1.0
+h raw norm: 60962.4453125
+h_norm = 0.9999999403953552
+h raw norm: 88704.0
+h_norm = 1.0
+h raw norm: 11.995684623718262
+h_norm = 1.0
+h raw norm: 21223.76171875
+h_norm = 0.9999999403953552
+h raw norm: 744.0439453125
+h_norm = 1.0
+h raw norm: 12.425365447998047
+h_norm = 1.0
+h raw norm: 12.225054740905762
+h_norm = 1.0
+h raw norm: 756.5968017578125
+h_norm = 1.0
+h raw norm: 1252607.0
+h_norm = 1.0
+h raw norm: 48477.17578125
+h_norm = 1.0
+h raw norm: 11.995304107666016
+h_norm = 1.0
+h raw norm: 12.216423034667969
+h_norm = 1.0
+h raw norm: 8124205.5
+h_norm = 1.0
+h raw norm: 1121907.125
+h_norm = 0.9999999403953552
+h raw norm: 70144.5
+h_norm = 0.9999999403953552
+h raw norm: 2963.414306640625
+h_norm = 1.0
+h raw norm: 12584373.0
+h_norm = 1.0
+h raw norm: 684.7598266601562
+h_norm = 1.0
+h raw norm: 576.343505859375
+h_norm = 0.9999999403953552
+h raw norm: 9753794.0
+h_norm = 0.9999999403953552
+h raw norm: 11.996253967285156
+h_norm = 1.0
+h raw norm: 882.493408203125
+h_norm = 0.9999999403953552
+h raw norm: 165822.40625
+h_norm = 1.0
+h raw norm: 8938.791015625
+h_norm = 1.0
+h raw norm: 294.2807922363281
+h_norm = 1.0
+h raw norm: 70.60665893554688
+h_norm = 1.0
+h raw norm: 11.580766677856445
+h_norm = 1.0000001192092896
+h raw norm: 50.19417190551758
+h_norm = 1.0
+h raw norm: 773059.75
+h_norm = 1.0
+h raw norm: 11.786476135253906
+h_norm = 1.0
+h raw norm: 781.0174560546875
+h_norm = 1.0
+h raw norm: 8454714.0
+h_norm = 0.9999999403953552
+h raw norm: 1531.928955078125
+h_norm = 1.0
+h raw norm: 6022.79931640625
+h_norm = 0.9999999403953552
+h raw norm: 58141.08984375
+h_norm = 1.0
+h raw norm: 61.701194763183594
+h_norm = 1.0
+h raw norm: 46910.953125
+h_norm = 1.0
+h raw norm: 60.27743148803711
+h_norm = 1.0
+h raw norm: 11.58084774017334
+h_norm = 1.0
+h raw norm: 1264730.25
+h_norm = 1.0
+h raw norm: 11.995709419250488
+h_norm = 0.9999999403953552
+h raw norm: 124228320.0
+h_norm = 0.9999999403953552
+h raw norm: 100405.734375
+h_norm = 1.0
+h raw norm: 93090720.0
+h_norm = 1.0
+h raw norm: 44.69127655029297
+h_norm = 1.0
+h raw norm: 11.180340766906738
+h_norm = 0.9999999403953552
+h raw norm: 10651810.0
+h_norm = 1.0
+h raw norm: 105.76519775390625
+h_norm = 1.0
+h raw norm: 12.23753547668457
+h_norm = 0.9999999403953552
+h raw norm: 15.553410530090332
+h_norm = 1.0
+h raw norm: 7807.74609375
+h_norm = 1.0
+h raw norm: 13700.73046875
+h_norm = 0.9999999403953552
+h raw norm: 6619.02490234375
+h_norm = 1.0
+h raw norm: 129963.3515625
+h_norm = 1.0
+h raw norm: 989.2764282226562
+h_norm = 1.0
+h raw norm: 13.020282745361328
+h_norm = 1.0
+h raw norm: 107.68133544921875
+h_norm = 1.0
+h raw norm: 11.996308326721191
+h_norm = 1.0
+h raw norm: 944.3536376953125
+h_norm = 1.0
+h raw norm: 1595897.25
+h_norm = 1.0
+h raw norm: 91585.9375
+h_norm = 0.9999999403953552
+h raw norm: 11.996362686157227
+h_norm = 1.0
+h raw norm: 12158467.0
+h_norm = 0.9999999403953552
+h raw norm: 10893.7744140625
+h_norm = 1.0
+h raw norm: 49.430999755859375
+h_norm = 1.0
+h raw norm: 8854.2216796875
+h_norm = 1.0
+h raw norm: 11.379021644592285
+h_norm = 1.0
+h raw norm: 6304.70068359375
+h_norm = 0.9999999403953552
+h raw norm: 13.944083213806152
+h_norm = 1.0
+h raw norm: 104222.8984375
+h_norm = 1.0
+h raw norm: 12.209894180297852
+h_norm = 0.9999999403953552
+h raw norm: 12.220648765563965
+h_norm = 1.0
+h raw norm: 15620.4765625
+h_norm = 1.0
+h raw norm: 2015.2501220703125
+h_norm = 1.0
+h raw norm: 97812.3125
+h_norm = 0.9999998807907104
+h raw norm: 98.6533203125
+h_norm = 0.9999999403953552
+h raw norm: 11.379110336303711
+h_norm = 1.0
+h raw norm: 1129138.0
+h_norm = 1.0
+h raw norm: 79.9111328125
+h_norm = 0.9999999403953552
+h raw norm: 12.657393455505371
+h_norm = 1.0
+h raw norm: 12691.466796875
+h_norm = 1.0
+h raw norm: 11.996983528137207
+h_norm = 1.0
+h raw norm: 11.180341720581055
+h_norm = 0.9999999403953552
+h raw norm: 1782.7130126953125
+h_norm = 1.0
+h raw norm: 12.652787208557129
+h_norm = 1.0
+h raw norm: 6015.56103515625
+h_norm = 0.9999999403953552
+h raw norm: 6079.65283203125
+h_norm = 1.0
+eps_v_check | step=100 S=4.9126 min=0.5744 max=1.6510
+h raw norm: 202.0482177734375
+h_norm = 1.0
+h raw norm: 139297.359375
+h_norm = 1.0
+h raw norm: 1236402.375
+h_norm = 0.9999999403953552
+h raw norm: 13.491144180297852
+h_norm = 1.0
+h raw norm: 83003.625
+h_norm = 1.0
+h raw norm: 244.5379180908203
+h_norm = 1.0
+h raw norm: 705.1105346679688
+h_norm = 0.9999999403953552
+h raw norm: 13.364696502685547
+h_norm = 1.0
+h raw norm: 12.30032730102539
+h_norm = 0.9999998807907104
+h raw norm: 55.247169494628906
+h_norm = 1.0
+h raw norm: 12.657353401184082
+h_norm = 1.0
+h raw norm: 14.053641319274902
+h_norm = 0.9999999403953552
+h raw norm: 810.9547729492188
+h_norm = 1.0
+h raw norm: 906775.875
+h_norm = 1.0
+h raw norm: 11.180338859558105
+h_norm = 0.9999999403953552
+h raw norm: 11.99808406829834
+h_norm = 1.0
+h raw norm: 21974.990234375
+h_norm = 1.0
+h raw norm: 941669.25
+h_norm = 1.0
+h raw norm: 13.109882354736328
+h_norm = 0.9999999403953552
+h raw norm: 11.788131713867188
+h_norm = 1.0
+h raw norm: 11.788071632385254
+h_norm = 1.0
+h raw norm: 922.5096435546875
+h_norm = 1.0
+h raw norm: 11.58194351196289
+h_norm = 1.0
+h raw norm: 18565310.0
+h_norm = 1.0
+h raw norm: 100755.4921875
+h_norm = 1.0
+h raw norm: 11.788175582885742
+h_norm = 1.0
+h raw norm: 958297.0
+h_norm = 1.0
+h raw norm: 765.8721923828125
+h_norm = 1.0
+h raw norm: 67572.796875
+h_norm = 1.0
+h raw norm: 11.180340766906738
+h_norm = 1.0
+h raw norm: 50.73093795776367
+h_norm = 1.0
+h raw norm: 12.219430923461914
+h_norm = 0.9999999403953552
+h raw norm: 12.222600936889648
+h_norm = 1.0
+h raw norm: 968.824462890625
+h_norm = 1.0
+h raw norm: 77146.828125
+h_norm = 1.0
+h raw norm: 17784.7890625
+h_norm = 1.0
+h raw norm: 7616.90380859375
+h_norm = 0.9999999403953552
+h raw norm: 58197.36328125
+h_norm = 0.9999999403953552
+h raw norm: 11.7885160446167
+h_norm = 1.0
+h raw norm: 19268898.0
+h_norm = 1.0
+h raw norm: 12.822912216186523
+h_norm = 0.9999999403953552
+h raw norm: 12.429780006408691
+h_norm = 1.0
+h raw norm: 12.212396621704102
+h_norm = 1.0
+h raw norm: 1120.7872314453125
+h_norm = 0.9999999403953552
+h raw norm: 115125.375
+h_norm = 1.0
+h raw norm: 50920.30078125
+h_norm = 1.0
+h raw norm: 16277497.0
+h_norm = 0.9999999403953552
+h raw norm: 1107427.5
+h_norm = 0.9999999403953552
+h raw norm: 14.213506698608398
+h_norm = 0.9999999403953552
+h raw norm: 112.02935791015625
+h_norm = 1.0
+h raw norm: 12.9437837600708
+h_norm = 0.9999999403953552
+h raw norm: 12.245749473571777
+h_norm = 1.0
+h raw norm: 31.83974266052246
+h_norm = 0.9999999403953552
+h raw norm: 11.582406997680664
+h_norm = 1.0
+h raw norm: 13.107112884521484
+h_norm = 1.0
+h raw norm: 182050576.0
+h_norm = 0.9999999403953552
+h raw norm: 12.429667472839355
+h_norm = 0.9999999403953552
+h raw norm: 11.788969039916992
+h_norm = 1.0
+h raw norm: 12.6790771484375
+h_norm = 1.0
+h raw norm: 18832.890625
+h_norm = 1.0
+h raw norm: 12.652388572692871
+h_norm = 1.0
+h raw norm: 11.788107872009277
+h_norm = 1.0
+h raw norm: 14.007804870605469
+h_norm = 1.0
+h raw norm: 15.01231861114502
+h_norm = 1.0
+h raw norm: 16796994.0
+h_norm = 1.0
+h raw norm: 11.789090156555176
+h_norm = 0.9999999403953552
+h raw norm: 12.218252182006836
+h_norm = 1.0
+h raw norm: 101527544.0
+h_norm = 1.0
+h raw norm: 11.999924659729004
+h_norm = 1.0
+h raw norm: 21.201751708984375
+h_norm = 0.9999999403953552
+h raw norm: 896905.5
+h_norm = 1.0
+h raw norm: 12659.2060546875
+h_norm = 0.9999998807907104
+h raw norm: 21137334.0
+h_norm = 1.0
+h raw norm: 13.844255447387695
+h_norm = 1.0
+h raw norm: 7531.8701171875
+h_norm = 0.9999999403953552
+h raw norm: 158008.4375
+h_norm = 1.0
+h raw norm: 81.9821548461914
+h_norm = 0.9999999403953552
+h raw norm: 114.91464233398438
+h_norm = 1.0
+h raw norm: 12.224942207336426
+h_norm = 1.0
+h raw norm: 11.789422035217285
+h_norm = 1.0
+h raw norm: 11.789450645446777
+h_norm = 1.0
+h raw norm: 1478.2967529296875
+h_norm = 1.0
+h raw norm: 11.180338859558105
+h_norm = 0.9999999403953552
+h raw norm: 8699.2314453125
+h_norm = 1.0
+h raw norm: 14.696112632751465
+h_norm = 1.0
+h raw norm: 12.229595184326172
+h_norm = 0.9999999403953552
+h raw norm: 16.52188491821289
+h_norm = 1.0
+h raw norm: 7424.83935546875
+h_norm = 0.9999999403953552
+h raw norm: 13.01525592803955
+h_norm = 1.0
+h raw norm: 12.21599006652832
+h_norm = 0.9999999403953552
+h raw norm: 15.893841743469238
+h_norm = 1.0
+h raw norm: 7663.11865234375
+h_norm = 1.0
+h raw norm: 96123.5546875
+h_norm = 1.0
+h raw norm: 22635.15234375
+h_norm = 0.9999999403953552
+h raw norm: 60566.0703125
+h_norm = 1.0
+h raw norm: 12.227065086364746
+h_norm = 1.0
+h raw norm: 11.789844512939453
+h_norm = 1.0
+h raw norm: 13.980539321899414
+h_norm = 1.0
+h raw norm: 11.379934310913086
+h_norm = 1.0
+h raw norm: 12.000357627868652
+h_norm = 0.9999999403953552
+eps_v_check | step=200 S=4.9123 min=0.5747 max=1.6502
+h raw norm: 12.22329330444336
+h_norm = 1.0
+h raw norm: 137459.71875
+h_norm = 0.9999998807907104
+h raw norm: 581.3099365234375
+h_norm = 1.0
+h raw norm: 12.000483512878418
+h_norm = 1.0
+h raw norm: 2842.8671875
+h_norm = 1.0
