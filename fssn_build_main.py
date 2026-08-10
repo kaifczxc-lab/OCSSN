@@ -159,64 +159,6 @@ def p_3_1(tris):
         return new_triangles
     return None
 
-random.seed(33)
-base = torus(3, 3)
-
-none_count = 0
-success_count = 0
-degree3_never_found = 0
-
-current = base
-for step in range(10000):
-    r = p_3_1(current)
-    if r is None:
-        none_count += 1
-    else:
-        success_count += 1
-        current = r  # advance state so degree-3 vertices can actually appear
-    # occasionally interleave a 1-3 to create degree-3 vertices, mirroring chain()
-    if random.random() < 0.3:
-        current = p_1_3(current)
-
-print(f"p_3_1 direct calls: none={none_count} success={success_count}")
-
-# also check: what does chain() actually record for 3-1?
-def g_local(tris):
-    F = len(tris)
-    vert = set()
-    for (a,b,c) in tris:
-        vert.add(a); vert.add(b); vert.add(c)
-    V = len(vert)
-    edges = set()
-    for (a,b,c) in tris:
-        edges.add(tuple(sorted((a,b))))
-        edges.add(tuple(sorted((b,c))))
-        edges.add(tuple(sorted((a,c))))
-    E = len(edges)
-    return (2 - (V-E+F)) // 2
-
-random.seed(33)
-current = torus(3, 3)
-e_g = g_local(current)
-raw_31_calls = 0
-raw_31_none = 0
-raw_31_valid_but_rejected_by_g = 0
-for _ in range(10000):
-    r_ = random.random()
-    if 0.3 <= r_ < 0.6:  # matches p_13=0.3, p_31=0.3 window in chain()
-        raw_31_calls += 1
-        figure = p_3_1(current)
-        if figure is None:
-            raw_31_none += 1
-        elif g_local(figure) != e_g:
-            raw_31_valid_but_rejected_by_g += 1
-        else:
-            current = figure
-
-print(f"raw 3-1 window hits: {raw_31_calls}, returned None: {raw_31_none}, "
-      f"returned mesh but g-mismatch: {raw_31_valid_but_rejected_by_g}")
-
-
 
 # chain is the one of the most important slice of dataset generation ; about p_13=0.3 (this is a chance, 30%) and this to for p_31
 # in foundation of this function we have Markov chain algorithm: P(X_n+1 = x_n+1 | X_n = x_n, X_n-1 = x_n-1, ... , X_0 = x_0) = P(X_n+1 = x_n+1 | X_n = x_n), This algorithm models transitions from one state to another
@@ -450,7 +392,7 @@ data = dataset(K, seed=main_seed)
 data_val = dataset(K, seed=main_seed + 1)
 split = int(0.8 * len(data)) # split, do 80% of classes on training and 20% new on validation
 print(f"main_seed={main_seed}")
-"""
+
 for seed in range(main_seed, main_seed + seed_r):
     model_gnn = gnn().to(device)
     optim_gnn = torch.optim.AdamW(model_gnn.parameters(), lr=0.001)
@@ -573,4 +515,4 @@ for seed in range(main_seed, main_seed + seed_r):
         print(f"sphere dispersion: var_s={var_s:.16f}, std_s={std_s:.16f}")
         print(f"OCSSN val acc: {OCSSN_correct / len(valset) * 100:.2f}%")
         print(f"tnn val acc: {tnn_correct / len(valset) * 100:.2f}%")
-        print(f"gnn val acc: {gnn_correct / len(valset) * 100:.2f}%")"""
+        print(f"gnn val acc: {gnn_correct / len(valset) * 100:.2f}%")
