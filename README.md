@@ -150,9 +150,9 @@ Because OCSSN is also a kind of tensor-based model, there is a known issue arise
 
 * Beta ([non-degenerate symmetric invariant pairing g. Lemma 2.4.](https://arxiv.org/pdf/math/0602047)): this is the tensor form of $$g = \varepsilon \circ \mu$$, it is the Frobenius bilinear form/pairing if context of 2d tqft
 
-* B_inv: **inverse matrix** of Beta, is also needed for state-sum (see. The State-sum(link)). inverse of $g$, see. Definition 2.3 (2) in [[3]](https://arxiv.org/abs/math/0602047)
+* B_inv: **inverse matrix** of Beta, is also needed for state-sum. inverse of $g$, see. Definition 2.3 (2) in [[3]](https://arxiv.org/abs/math/0602047)
 
-* c3: 3-tensor obtained by contracting M with beta, it is a complex number that is needed for the state-sum (see the state-sum(link))
+* c3: 3-tensor obtained by contracting M with beta, it is a complex number that is needed for the state-sum
 
 * G,h,Z: Basic readout part
 
@@ -162,7 +162,7 @@ Because OCSSN is also a kind of tensor-based model, there is a known issue arise
     
     "We then assign a complex value $$C_{ijk}$$ to a triangle with ordered color indices i, j, k. We here assume that $$C_{ijk}$$ is symmetric under cyclic permutations of the indices: $$C{ijk} = C_{jki} = C_{kij}$$ ; Note, however, that $$C_{ijk}$$ is not necessarily totally symmetric. Next, we glue these triangles by contracting their indices with $$g^{ij}$$ = $$g^{ji}$$. We further assume that $$g^{ij}$$ has its inverse $$g_{ij}$$ ; $$g_{ik}g^{kj} = δ^{j}_{i} $$ and raise or lower indices with these matrices. Thus, we have a complex-valued function of $$C_{ijk}$$ and $$g_{ij}$$ for each triangulation $$T_{g}$$ and we will interpret it as the partition function of our lattice model, denoting it by $$Z(T_{g})$$  For example, the partition function for the triangulation of $$\sum_{0} = S^{2}$$ is expressed as: $$Z(T_0) = g^{ii'} g^{jj'} g^{kk'} g^{ll'} g^{mm'} g^{nn'} C_{ijk}C_{k'lm}C_{m'ni'}C_{j'n'l'}$$"
 
-    Let us compare this with the state-sum algorithm used in OCSSN (see. link)
+    Let us compare this with the [state-sum algorithm used in OCSSN](https://github.com/kaifczxc-lab/OCSSN/blob/66d6d0037c0b25fb4c1941eda25db16e6054cf18/fssn_build_main.py#L285)
 
     The triangles with ordered color indices i,j,k are represented in **$$v_p$$ with indices a,b,c**. Complex number we assign too ```ops += [C, (a,b,c)]``` and we get **$$C_{a,b,c}$$** ; $$g^{ij}$$ is obtained from ```ops += [b_inv, (x,y)]``` , triangulations here are $$v_p$$ & $$g_edges$$ and the **contraction follows** [Einstein Notation](https://en.wikipedia.org/wiki/Einstein_notation)
 
@@ -500,7 +500,7 @@ def converter_for_tnn(tris, N=64):
 
 Current stage and current PoC test don't give all understanding about OCSSN's power, because of that, the results presented here should be viewed as preliminary
 
-All results can be found here (link)
+All results can be found [here](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects/summary-tests-logs)
 
 For analysis the author ran 4 tests with 4 different datasets
 
@@ -516,7 +516,7 @@ Complexity can be classified differently, but based on the results we can say fo
 
 ### Full characteristics of datasets during testing (with reinitialization of models)
 
-| Characteristics                      | Easy (seed=55)                           | Easy (seed=34)                           | Hard (seed=53)                        | Hard (seed=92)                                |
+| Characteristics                      | Easy ([seed=55](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/seed_55_model_with_reinitialization.txt))                           | Easy ([seed=34](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/seed_34_with_reinitialization.txt))                           | Hard ([seed=53](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/seed_53_model_with_reinitialization.txt))                        | Hard ([seed=92](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/seed_92_model_with_reinitialization.txt))                                |
 |--------------------------------------|------------------------------------------|------------------------------------------|---------------------------------------|-----------------------------------------------|
 | Intersection `mesh_tris` torus/sphere| Minimal: torus 18–46, spheres 4–28       | Minimal: torus 18–48, spheres 2–22       | Strong: torus 18–58, hexa up to 44   | Very strong: hexa=34 coincides with torus      |
 | Classes with `no-op`                 | Only hexa (22.7%)                        | hexa (19.7%), octa (3.0%)                | None                                  | hexa (7.6%), octa (1.5%)                      |
@@ -539,7 +539,7 @@ Complexity can be classified differently, but based on the results we can say fo
 
 ### Full characteristics of datasets during testing (without reinitialization of models)
 
-| Characteristics                      | Easy (seed=34)                           | Moderate (seed=55)                       | Hard (seed=53)                         | Hard (seed=92)                             |
+| Characteristics                      | Easy ([seed=34](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/seed_34_without_reinitialization.txt))                           | Moderate ([seed=55](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/seed_55_without_reinitialization.txt))                       | Hard ([seed=53](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/seed_53_without_reinitialization.txt))                         | Hard ([seed=92](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/seed_92_without_reinitialization.txt))                             |
 |--------------------------------------|------------------------------------------|------------------------------------------|----------------------------------------|--------------------------------------------|
 | Intersection `mesh_tris` torus/sphere| Minimal: torus 18–48, spheres 2–22       | Minimal: torus 18–46, spheres 4–28       | Strong: torus 18–58, hexa up to 44     | Very strong: hexa=34 coincides with torus  |
 | Classes with `no-op`                 | hexa (19.7%), octa (3.0%)                | Only hexa (22.7%)                        | None                                   | hexa (7.6%), octa (1.5%)                   |
@@ -574,13 +574,13 @@ Due to the fact that the author works alone and the code has not been tested, th
 
 * **no-op**: Even when trying to fix this error, it sometimes recurs; sometimes, for some objects, the **no-op rate can reach up to 50%**. Solution: for now, the simplest fix is to restart with a different seed and monitor the statistics
 
-* **State-sum numerical instability**: report(link) ; As we can see, raw h has a lot of problems with numerical instability, it probably can be alleviated by h_norm, but normalization **cannot repair** the problem of gradient instability. Solution: A solution may be found in future iterations
+* **State-sum numerical instability**: [report](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/summary-tests-logs/h_raw_norm_instability.txt) ; As we can see, raw h has a lot of problems with numerical instability, it probably can be alleviated by h_norm, but normalization **cannot repair** the problem of gradient instability. Solution: A solution may be found in future iterations
 
 * **Non-strict topological invariance**: As was written before, the author's conclusion (see Section 3) discusses dispersion. This problem needs to be described in more detail because it is **an open question of this work**, the solution to this problem will lead us to a non-learning static algorithm, at the current PoC stage of OCSSN this problem is both critical and, at the same time, a factor for future growth. Formulation оf open question: in future iterations, the author needs to add
     
     * A mechanism that ensures **strict invariance** (i.e. maybe, closed state-sum, refusal to open ports)
 
-    * Do a learning **stabilization and optimization** (see Section 4. Instability)
+    * Do a learning **stabilization and optimization**
 
 
 The author will consider a solution, but also welcomes any help from interested parties. Even a small correction from a knowledgeable person would be very valuable to the author
