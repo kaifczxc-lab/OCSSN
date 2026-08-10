@@ -159,6 +159,7 @@ def p_3_1(tris):
         return new_triangles
     return None
 
+
 # chain is the one of the most important slice of dataset generation ; about p_13=0.3 (this is a chance, 30%) and this to for p_31
 # in foundation of this function we have Markov chain algorithm: P(X_n+1 = x_n+1 | X_n = x_n, X_n-1 = x_n-1, ... , X_0 = x_0) = P(X_n+1 = x_n+1 | X_n = x_n), This algorithm models transitions from one state to another
 def chain(base, label, k, p_13=0.3, p_31=0.3, tag="unknown", stats=None):
