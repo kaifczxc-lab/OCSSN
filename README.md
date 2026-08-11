@@ -601,7 +601,7 @@ If you want to see more examples with other shapes, you can do this by changing 
 
 ## Pachner 2-2 Move Visualization on Octahedron
 
-<img width="493" height="488" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img width="493" height="488" alt="after(1)" src="https://github.com/user-attachments/assets/c92dbecf-284f-4deb-a959-0c5877f8af82" />  
+<img width="48%" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img width="48%" alt="after(1)" src="https://github.com/user-attachments/assets/c92dbecf-284f-4deb-a959-0c5877f8af82" />  
 
 
 
