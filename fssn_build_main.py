@@ -9,7 +9,9 @@ from collections import defaultdict
 import random    
 from collections import Counter
 import sys
-
+import networkx
+import matplotlib
+import matplotlib.pyplot as plt
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") # gpu as main for training, because cpu is slow :)
@@ -83,6 +85,26 @@ def relabel(tris):
                 map[v] = len(map)
         n_tris.append((map[a], map[b], map[c]))
     return n_tris
+
+"""
+# Auxiliary tools (can be commented)
+# The Pachner Moves visualization function by using networkx and matplotlib (result of it we can see in README)
+
+def pachner_moves_visu(tris): # 2D visualization
+    G = networkx.Graph() # create empty graph
+    for a,b,c in tris: # add edges from triangle
+        G.add_edge(a,b)
+        G.add_edge(b,c)
+        G.add_edge(c,a)
+    pos = networkx.spring_layout(G, seed=1) # define vertices position
+    plt.figure(figsize=(5,5))
+    networkx.draw(G, pos, with_labels=True, node_color="lightblue", node_size=500, font_size=10)
+    plt.axis("off")
+    plt.tight_layout()
+    plt.show()
+"""
+
+
 # Pachner move 2/2, imagine a quadrilateral with points ABCD, where A lies opposite B, C opposite D, it has a diagonal AB, the Pachner move is 2/2 diagonal from AB to CD
 def p_2_2(tris):
     # we need to construct a mapping : edge -> list of tris containing it
@@ -212,6 +234,44 @@ octabipyramid = [(0,1,2), (0,2,3), (0,3,4), (0,4,5), (0,5,6), (0,6,7), (0,7,8), 
 hexabipyramid = [(0,1,2), (0,2,3), (0,3,4), (0,4,5), (0,5,6), (0,6,1),(7,2,1), (7,3,2), (7,4,3), (7,5,4), (7,6,5), (7,1,6)] #12 triangles list
 icosahedron = [(0,11,5), (0,5,1), (0,1,7), (0,7,10), (0,10,11),(1,5,9), (5,11,4), (11,10,2), (10,7,6), (7,1,8),(3,9,4), (3,4,2), (3,2,6), (3,6,8), (3,8,9),(4,9,5), (2,4,11), (6,2,10), (8,6,7), (9,8,1)] # 20 triangles, 12 edges, by euler characteristic x=12 - 30 + 20 = 2 => 2 = 2 - 2g = 2g = 0 => g=0 (sphere)
 
+
+"""
+# Visualization of Pachner Moves 2-2 | Result can be found in README in Section 6 Gallery
+
+tris = octahedron # can be changed to other figure what you want
+pachner_moves_visu(tris)
+
+tris_new = p_2_2(tris)
+pachner_moves_visu(tris_new)
+"""
+"""
+# Visualization of Pachner Move 1-3 | Result can be found in README in Section 6 Gallery
+
+tris = octahedron # can be changed to other figure what you want
+pachner_moves_visu(tris)
+
+tris_new = p_1_3(tris)
+pachner_moves_visu(tris_new)
+"""
+
+"""
+# Visualization of Pachner Move 3-1 | Result can be found in README in Section 6 Gallery
+
+tris = octahedron # can be changed to other figure what you want
+pachner_moves_visu(tris)
+
+tris = p_1_3(tris)
+pachner_moves_visu(tris)
+
+tris_new = p_3_1(tris)
+if tris_new is not None:
+    pachner_moves_visu(tris_new)
+else:
+    print("none")
+"""
+
+
+
 # lets put some spheres in spheres list
 
 spheres = [icosahedron, hexabipyramid, octahedron]
@@ -327,7 +387,7 @@ class gnn(torch.nn.Module):
         self.W2 = torch.nn.Parameter(torch.randn(4, 4) * 0.1)
         self.classifier = torch.nn.Linear(4, 2)
     def forward(self, a, L):
-        agg1 = a @ L # in basic gnn agg looking like that agg1 = (a @ L) / degree.reshape(-1,1) ; If i remember well (its been 3-4 weeks ago) with that basic construction i had some kind of problems with prediction
+        agg1 = a @ L # in basic gnn agg its looking like that: agg1 = (a @ L) / degree.reshape(-1,1) ; If i remember well (its been 3-4 weeks ago) with that basic construction i had some kind of problems with prediction, everytime the basic version was 50% pred
         L1 = torch.nn.functional.relu(agg1 @ self.W1)
         agg2 = a @ L1
         L2 = torch.nn.functional.relu(agg2 @ self.W2)
