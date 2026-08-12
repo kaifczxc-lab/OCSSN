@@ -10,8 +10,10 @@ import random
 from collections import Counter
 import sys
 
+
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") # gpu as main for training, because cpu is slow :)
-#sys.stdout = open("log_run_23.txt", "w", encoding="utf-8", buffering=1) # just convenient feature for run's logging
+sys.stdout = open("", "w", encoding="utf-8", buffering=1) # just convenient feature for run's logging
 
 def set_seed(seed):
     random.seed(seed)
@@ -158,7 +160,6 @@ def p_3_1(tris):
         new_triangles.append(new_tri)
         return new_triangles
     return None
-
 
 # chain is the one of the most important slice of dataset generation ; about p_13=0.3 (this is a chance, 30%) and this to for p_31
 # in foundation of this function we have Markov chain algorithm: P(X_n+1 = x_n+1 | X_n = x_n, X_n-1 = x_n-1, ... , X_0 = x_0) = P(X_n+1 = x_n+1 | X_n = x_n), This algorithm models transitions from one state to another
