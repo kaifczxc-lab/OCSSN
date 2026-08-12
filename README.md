@@ -27,6 +27,7 @@ Note that, the author doesn't know how to name this model correctly, so the name
 - [Section 3: Summary](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-3--summary-)
 - [Section 4: Limitations](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-4--limitations-)
 - [Section 5: Future Work](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-5--future-work-)
+- [Section 6: Gallery](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-6--gallery-)
 
 # Section 0 | Introduction | 
 
