@@ -144,9 +144,9 @@ Because OCSSN is also a kind of tensor-based model, there is a known issue arise
 
 * "for small dimensions, the complete classification of finite-dimensional commutative algebras over R quickly becomes modular and partially infinite, so for d ≥ 7 the list of all types is not available in finite form, but for d ≤ 6 there is a complete classification over an algebraically closed field"
 
-* M: Its 3-tensor of cyclic group Z/d, i.e., tensor of structure constants of group algebra $$\mathbb{C}[\mathbb{Z}_d]$$
+* M: Its 3-tensor of cyclic group Z/d, i.e., tensor of structure constants of group algebra $\mathbb{C}[\mathbb{Z}_d]$
 
-    * Where does it come from? It is tensor of structure constants of group algebra $$\mathbb{C}[\mathbb{Z}_d]$$ over a field $$\mathbb{C}$$ (or $$\mathbb{R}$$), it defines the multiplication in the basis of group elements, more information can be found [here](https://en.wikipedia.org/wiki/Structure_constants), this tensor is mentioned there as "$$c_{ij}{}^{k}$$"
+    * Where does it come from? It is tensor of structure constants of group algebra $\mathbb{C}[\mathbb{Z}_d]$ over a field $\mathbb{C}$ (or $\mathbb{R}$), it defines the multiplication in the basis of group elements, more information can be found [here](https://en.wikipedia.org/wiki/Structure_constants), this tensor is mentioned there as "$c_{ij}{}^{k}$"
 
 * eps_r (counit): In 2D TQFT, any multiplication operation requires a corresponding linear functional (counit), which in this model is represented by eps_r
 
@@ -164,7 +164,7 @@ Because OCSSN is also a kind of tensor-based model, there is a known issue arise
 
     * First, **Definition of LTFT Section 2 / State-sum Construction** [[2]](https://arxiv.org/abs/hep-th/9212154): 
     
-    "We then assign a complex value $$C_{ijk}$$ to a triangle with ordered color indices i, j, k. We here assume that $$C_{ijk}$$ is symmetric under cyclic permutations of the indices: $$C{ijk} = C_{jki} = C_{kij}$$ ; Note, however, that $$C_{ijk}$$ is not necessarily totally symmetric. Next, we glue these triangles by contracting their indices with $$g^{ij}$$ = $$g^{ji}$$. We further assume that $$g^{ij}$$ has its inverse $$g_{ij}$$ ; $$g_{ik}g^{kj} = δ^{j}_{i} $$ and raise or lower indices with these matrices. Thus, we have a complex-valued function of $$C_{ijk}$$ and $$g_{ij}$$ for each triangulation $$T_{g}$$ and we will interpret it as the partition function of our lattice model, denoting it by $$Z(T_{g})$$  For example, the partition function for the triangulation of $$\sum_{0} = S^{2}$$ is expressed as: $$Z(T_0) = g^{ii'} g^{jj'} g^{kk'} g^{ll'} g^{mm'} g^{nn'} C_{ijk}C_{k'lm}C_{m'ni'}C_{j'n'l'}$$"
+    "We then assign a complex value $$C_{ijk}$$ to a triangle with ordered color indices i, j, k. We here assume that $$C_{ijk}$$ is symmetric under cyclic permutations of the indices: $$C{ijk} = C_{jki} = C_{kij}$$ ; Note, however, that $$C_{ijk}$$ is not necessarily totally symmetric. Next, we glue these triangles by contracting their indices with $$g^{ij}$$ = $$g^{ji}$$. We further assume that $$g^{ij}$$ has its inverse $$g_{ij}$$ ; $g_{ik}g^{kj} = δ^{j}_{i}$ and raise or lower indices with these matrices. Thus, we have a complex-valued function of $C_{ijk}$ and $$g_{ij}$$ for each triangulation $$T_{g}$$ and we will interpret it as the partition function of our lattice model, denoting it by $$Z(T_{g})$$  For example, the partition function for the triangulation of $$\sum_{0} = S^{2}$$ is expressed as: $$Z(T_0) = g^{ii'} g^{jj'} g^{kk'} g^{ll'} g^{mm'} g^{nn'} C_{ijk}C_{k'lm}C_{m'ni'}C_{j'n'l'}$$"
 
     Let us compare this with the [state-sum algorithm used in OCSSN](https://github.com/kaifczxc-lab/OCSSN/blob/66d6d0037c0b25fb4c1941eda25db16e6054cf18/fssn_build_main.py#L285)
 
