@@ -80,8 +80,6 @@ Due to the obvious impossibility of moving strict concepts in a **dynamically le
 
 The state-sum function was inspired by State-sum construction of **2D open-closed TQFTs** [[1]](https://arxiv.org/abs/math/0602047)
 
-For the convenience of studying this work, the author has fully **found, written and described** all main **theorems, lemmas, axioms** thats will be **used** in this documentation. All can be found in OCSSN-Maths(link)
-
 # Section 1 | OCSSN main construction |
 
 In code of this project we have **two** main parts
@@ -205,8 +203,6 @@ def torus(m,n):
 
 # Section 2.2 | The function that determines the genus of a surface g |
 
-Euler's Characteristics (link)
-
 Lets pick fugire (list) and calculate type of surface g by Eulers Characteristic: x = V - E + F = 2 - 2g (for find g we just need to change it a bit: "g = 2 - (V - E + F) / 2")
 
 Repeat: V = unique vertices, E = unique edges, F = number of faces, g = surface genus
@@ -252,8 +248,6 @@ def relabel(tris):
     return n_tris
 ```
 # Section 2.4 | All Pachner moves |
-
-More information about Pachner Moves can be found in OCSSN-Math in Section 1 (link)
 
 For example in all function we take tris = [(0, 1, 2),(0, 2, 3)]
 
@@ -580,7 +574,7 @@ Due to the fact that the author works alone and the code has not been tested, th
 
 * **Current Test**: Due to the fact that the OCSSN is on PoC stage **we only have "toy" testing**. Solution: in future iterations the author will look for other types of real applied tests
 
-* **torch.linalg.inv goes singular when calculating b_inv**: This problem was **mentioned earlier** in Section 1.1., it problem is alleviated by exponentiating eps_r, The main issue is that after a short training period (2 seeds), in half of the cases it produces an error about the number going into singularity when calculating b_inv. traceback (link)
+* **torch.linalg.inv goes singular when calculating b_inv**: This problem was **mentioned earlier** in Section 1.1., it problem is alleviated by exponentiating eps_r, The main issue is that after a short training period (2 seeds), in half of the cases it produces an error about the number going into singularity when calculating b_inv
 
 * **no-op**: Even when trying to fix this error, it sometimes recurs; sometimes, for some objects, the **no-op rate can reach up to 50%**. Solution: for now, the simplest fix is to restart with a different seed and monitor the statistics
 
@@ -618,7 +612,7 @@ If you want to see more examples with other shapes, you can do this by changing 
 
 ---
 
-## Pachner 1-3 Move Visualization on Octahedrom
+## Pachner 1-3 Move Visualization on Octahedron
 
 <img width="48%" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img  width="48%" alt="after(1)" src="https://github.com/user-attachments/assets/3193a312-56a9-4b23-b667-e2f2ebe88851" />
 
