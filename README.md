@@ -10,6 +10,14 @@ This report focuses on the architectural Proof of Concept, **large-scale benchma
 
 Note that, the author doesn't know how to name this model correctly, so the name OCSSN is a tribute to the work that **inspired this project**
 
+---
+
+### Important Note (August 12, 2024)
+
+The value of the current work is unknown. The results in the version of the code with the shortcut fix degenerate into random guessing for all models. Section 3 describes the results of the version of the code without the shortcut fix. To put it more bluntly, this shortcut was found by chance using LogisticRegression from sklearn.linear_model, which makes it very difficult to say anything about it at this point. Even so, in theory, the model provides greater gains compared to others, and this remains an open question. The author will resolve and describe this open question. For now, as of 8/12/26, we are at this stage. At a minimum, I would like to say that the situation may change with possible changes to the model parameters (such as algebra in M), that is. What the author wants to say is that the work has not yet yielded an absolutely negative result. In my opinion, the "OCSSN class" can be modified in a huge number of ways, all of which have not yet been tested and have not been found
+
+---
+
 ## Table of Contents
 
 - [Section 0: Introduction](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-0--introduction-)
@@ -27,6 +35,8 @@ Note that, the author doesn't know how to name this model correctly, so the name
 - [Section 3: Summary](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-3--summary-)
 - [Section 4: Limitations](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-4--limitations-)
 - [Section 5: Future Work](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-5--future-work-)
+- [Section 6: Gallery](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-6--gallery-)
+
 
 # Section 0 | Introduction | 
 
@@ -560,11 +570,13 @@ Complexity can be classified differently, but based on the results we can say fo
 
 The author's analytical conclusion from results are: 
 
-* OCSSN gives a stronger result where other models **fail to generalize**, for example: seed=33 & seed=92. This confirms the **robustness of the proposed model** in the surface classification problem. But looking at the dispersion (We dont have this parameter in characteristic, but it can be found here a little upper than val_acc), one can see that OCSSN does not implement a strict topological invariant
+* OCSSN gives a stronger result where other models **fail to generalize**, for example: seed=33 & seed=92. This confirms the **robustness of the proposed model** in the surface classification problem
 
-# Section 4 | Limitations |
+# Section 4 | Limitations & Problems |
 
 Due to the fact that the author works alone and the code has not been tested, the number of bugs and limitations is unknown, but here are the most superficial ones
+
+* **Dispersion**: If the reader has already looked through the architecture test files with the postscript "without_reinitialization", then most likely he could notice that dispersion and std can sometimes be large
 
 * **Current Test**: Due to the fact that the OCSSN is on PoC stage **we only have "toy" testing**. Solution: in future iterations the author will look for other types of real applied tests
 
@@ -604,5 +616,14 @@ If you want to see more examples with other shapes, you can do this by changing 
 <img width="48%" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img width="48%" alt="after(1)" src="https://github.com/user-attachments/assets/c92dbecf-284f-4deb-a959-0c5877f8af82" />  
 
 
+---
 
+## Pachner 1-3 Move Visualization on Octahedrom
 
+<img width="48%" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img  width="48%" alt="after(1)" src="https://github.com/user-attachments/assets/3193a312-56a9-4b23-b667-e2f2ebe88851" />
+
+---
+
+## Pachner 3-1 Move
+
+We translate the figure into 1-3 (as above) and the move 3-1 returns us the same basic octahedron, there is generally no point in visualizing it here, if the reader wants to check, then everything is in the code
