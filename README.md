@@ -12,9 +12,9 @@ Note that, the author doesn't know how to name this model correctly, so the name
 
 ---
 
-### Important Note (August 12, 2024)
+### Important Note (August 12, 2026)
 
-The value of the current work is unknown. The results in the version of the code with the shortcut fix degenerate into random guessing for all models. Section 3 describes the results of the version of the code without the shortcut fix. To put it more bluntly, this shortcut was found by chance using LogisticRegression from sklearn.linear_model, which makes it very difficult to say anything about it at this point. Even so, in theory, the model provides greater gains compared to others, and this remains an open question. The author will resolve and describe this open question. For now, as of 8/12/26, we are at this stage. At a minimum, I would like to say that the situation may change with possible changes to the model parameters (such as algebra in M), that is. What the author wants to say is that the work has not yet yielded an absolutely negative result. In my opinion, the "OCSSN class" can be modified in a huge number of ways, all of which have not yet been tested and have not been found
+The value of the current work is unknown. The results in the version of the [code with the shortcut fix](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/fssn_build_main_with_shortcut_fix.py) degenerate into random guessing for all models. [Section 3](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-3--summary-) describes the results of [the version of the code without the shortcut fix](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/fssn_build_main.py). To put it more bluntly, this shortcut was found by chance using LogisticRegression from sklearn.linear_model, which makes it very difficult to say anything about it at this point. Even so, in theory, the model provides greater gains compared to others, and this remains an open question. The author will resolve and describe this open question. For now, as of 8/12/26, we are at this stage. At a minimum, I would like to say that the situation may change with possible changes to the model parameters (such as algebra in M), that is. What the author wants to say is that the work has not yet yielded an absolutely negative result. In my opinion, the "OCSSN class" can be modified in a huge number of ways, all of which have not yet been tested and have not been found
 
 ---
 
@@ -33,7 +33,7 @@ The value of the current work is unknown. The results in the version of the code
     - [Section 2.7: Dataset Generation](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-27--dataset-generation-)
     - [Section 2.8: Converters](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-28--converters-)
 - [Section 3: Summary](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-3--summary-)
-- [Section 4: Limitations](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-4--limitations-)
+- [Section 4: Limitations & Problems](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-4--limitations-)
 - [Section 5: Future Work](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-5--future-work-)
 - [Section 6: Gallery](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-6--gallery-)
 
