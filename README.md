@@ -62,7 +62,7 @@ Main subject is: Higher Mathematics (Topology. Linear Algebra. Topological Quant
 
 * [3] [Atiyah, M. F. (1988). Topological quantum field theory. Publications Mathématiques de l'IHÉS, 68, 175-186](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyahtqft.pdf)
 
-* [4] [Grokipedia: Pachner Moves](https://grokipedia.com/page/pachner_moves)
+* [4] [Grokipedia: Pachner Moves](https://grokipedia.com/page/pachner_moves) (It might not be the best source, so you can also use [Wikipedia](https://en.wikipedia.org/wiki/Pachner_moves))
 
 * [5] ["Elementary Topology. Problem Textbook" By O. Ya. Viro, O. A. Ivanov, N. Yu. Netsvetaev, V. M. Kharlamov](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/viro.pdf)
 
