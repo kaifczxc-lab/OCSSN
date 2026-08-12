@@ -62,13 +62,11 @@ Main subject is: Higher Mathematics (Topology. Linear Algebra. Topological Quant
 
 * [3] [Atiyah, M. F. (1988). Topological quantum field theory. Publications Mathématiques de l'IHÉS, 68, 175-186](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyahtqft.pdf)
 
-* [4] ["Frobenius Algebras and 2D Topological Quantum Field Theories" By Joachim Kock](https://math.mit.edu/~hrm/palestine/koch-frobenius-algebras.pdf)
+* [4] [Grokipedia: Pachner Moves](https://grokipedia.com/page/pachner_moves)
 
-* [5] [Grokipedia: Pachner Moves](https://grokipedia.com/page/pachner_moves)
+* [5] ["Elementary Topology. Problem Textbook" By O. Ya. Viro, O. A. Ivanov, N. Yu. Netsvetaev, V. M. Kharlamov](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/viro.pdf)
 
-* [6] ["Elementary Topology. Problem Textbook" By O. Ya. Viro, O. A. Ivanov, N. Yu. Netsvetaev, V. M. Kharlamov](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/viro.pdf)
-
-* [7] [Tom Leinster (2016): Basic Category Theory](https://arxiv.org/abs/1612.09375)
+* [6] [Tom Leinster (2016): Basic Category Theory](https://arxiv.org/abs/1612.09375)
 
 Before proceeding, some clarifications should be made, the model's name contains "Open-Closed State Sum" but **not TQFT/Frobenius/Topological**, this is because the model is a partial combination of these theories, in a form suitable for a **dynamically learning algorithm**
 
@@ -150,7 +148,7 @@ Because OCSSN is also a kind of tensor-based model, there is a known issue arise
 
     * Where does it come from? It is tensor of structure constants of group algebra $$\mathbb{C}[\mathbb{Z}_d]$$ over a field $$\mathbb{C}$$ (or $$\mathbb{R}$$), it defines the multiplication in the basis of group elements, more information can be found [here](https://en.wikipedia.org/wiki/Structure_constants), this tensor is mentioned there as "$$c_{ij}{}^{k}$$"
 
-* eps_r (counit): In 2D TQFT, any multiplication operation requires a corresponding linear functional (counit), which in this model is represented by eps_r. For complete details, see [[4]](https://math.mit.edu/~hrm/palestine/koch-frobenius-algebras.pdf), pp. 106–107, Section 2.3.
+* eps_r (counit): In 2D TQFT, any multiplication operation requires a corresponding linear functional (counit), which in this model is represented by eps_r
 
 * eps_v (counit): We need to build **non-degenerate symmetric invariant pairing g** (=beta) because we wrap eps_r in an exponent to ensure that eps is a positive number, otherwise if eps is close to 0 or negative, beta may become singular, but this doesnt mean the torch.linalg.inv cant be singular, but it happens noticeably less frequently than if we did not apply the exponent
 
