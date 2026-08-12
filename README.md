@@ -72,7 +72,7 @@ Before proceeding, some clarifications should be made, the model's name contains
 
 That is: 
 
-* The author **doesn't claim about the project is fully correct from the point of view of pure mathematics**: [General Topology](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/viro.pdf), [state-sum](https://arxiv.org/abs/math/0602047), [TQFT's](https://math.mit.edu/~hrm/palestine/koch-frobenius-algebras.pdf) (or [[3]](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyahtqft.pdf))
+* The author **doesn't claim about the project is fully correct from the point of view of pure mathematics**: [General Topology](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/viro.pdf), [state-sum](https://arxiv.org/abs/math/0602047), [TQFT's](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyahtqft.pdf)
 
 Due to the obvious impossibility of moving strict concepts in a **dynamically learning algorithm**, in otherwise it would just be a **static algorithm**, the reader should **take this into account as obvious fact**
 
