@@ -604,5 +604,14 @@ If you want to see more examples with other shapes, you can do this by changing 
 <img width="48%" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img width="48%" alt="after(1)" src="https://github.com/user-attachments/assets/c92dbecf-284f-4deb-a959-0c5877f8af82" />  
 
 
+---
 
+## Pachner 1-3 Move Visualization on Octahedrom
 
+<img width="48%" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img  width="48%" alt="after(1)" src="https://github.com/user-attachments/assets/3193a312-56a9-4b23-b667-e2f2ebe88851" />
+
+---
+
+## Pachner 3-1 Move
+
+We translate the figure into 1-3 (as above) and the move 3-1 returns us the same basic octahedron, there is generally no point in visualizing it here, if the reader wants to check, then everything is in the code
