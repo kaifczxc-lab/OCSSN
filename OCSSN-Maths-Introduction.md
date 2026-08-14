@@ -1,3 +1,5 @@
+(These are the first commits, the document is being translated here, it was not originally written in English)
+
 This document can be helpful in understanding the [Open-Closed State-sum Network](https://github.com/kaifczxc-lab/OCSSN)
 
 Author: [siritoriyowai](https://github.com/kaifczxc-lab)
@@ -173,3 +175,107 @@ Formally
 3) The superposition operation need to be exist (defined)
 
 * ∀f ∈ Hom_K(A,B), g ∈ Hom_K(B,C) ∃h = g ∘ f ∈ Hom_K(A,C) (that is, we go from point A straight to C because there is the same mapping B between them)
+
+4) id for any object in K 
+
+* ∀A ∈ Obj_K ∃id_A ∈ Hom_K(A,A) 
+
+5) mappings must be associative
+
+* f_1 ∘ (f_2 ∘ f_3) = (f_1 ∘ f_2) ∘ f_3
+
+6) Multiplication on id - nothing change
+
+id ∘ f = f ∘ id = f
+
+---
+
+*How does it work on specific categories?*
+
+Let K_1 = category of topological spaces (Obj_K the class of all topological spaces)
+
+Hom - all possible continuous maps 
+
+composition is defined as usual function composition 
+
+identity map as usual identity map 
+
+associativity holds right away
+
+Let K_2 = category of groups (Obj_K set of all possible groups)
+
+Hom_K = set of homomorphisms between groups 
+
+composition of homomorphisms 
+
+identity is the usual identity map 
+
+associativity holds
+
+the identity law also holds 
+
+---
+
+## Additional Section 1.1 | Functors |
+
+Let A, B be some categories, what is a mapping (functor) between A -> B and what should it include
+
+This mapping should translate objects of category A into objects of category B
+
+F: A -> B 
+
+1) ∀X ∈ Ob_A -> F(X) ∈ Ob_B
+
+2) (f ∈ Hom_A(X,Y): A -> B) -> (F(f) ∈ Hom_B(F(X), F(Y)): F(A) -> F(B))
+
+Axioms
+
+3) F(id_X) = id_F(X)
+
+4.1) F(f ∘ g) = F(f) ∘ F(g)
+
+4.2) F(f ∘ g) = F(g) ∘ F(f)
+
+Such mappings that include three conditions (1,2,3) are called functors, and if 4.1) exists, then it is a covariant functor, and if 4.2) it is a contravariant functor
+
+---
+
+**Quick reference**
+
+Category K contains
+
+Objects Ob_A
+
+∀A,B ∈ Ob_A ∃Hom_A(A,B)
+
+∀f ∈ Hom_A(A,B), g ∈ Hom_A(B,C) ∃h = g ⋅ f ∈ Hom_A(A,C)
+
+f ∈ Hom_A: A -> B
+
+g ∈ Hom_A: B -> C 
+
+h ∈ Hom_A: g -> f
+
+functor is:
+
+1. ∀X ∈ Ob_A -> F(X) ∈ Ob_B
+
+2. (f∈Hom_A(A,B): A -> B) -> (F(f) ∈ Hom_A_2(F(A),F(B)): F(A) -> F(B))
+
+3. F(id_A) = id_F(A)
+
+If we satisfy these conditions, then this is a functor, next come the formulas for defining a covariant functor or contravariant functor
+
+F(f * g) = F(f) * F(g) covariant functor
+
+F(f ∘ g) = F(g) ∘ F(f) contavariant functor
+
+---
+
+# Section M | Commutative Frobenius Algebras |
+
+Source: ["Frobenius Algebras and 2D Topological Quantum Field Theories" By Joachim Kock](https://math.mit.edu/~hrm/palestine/koch-frobenius-algebras.pdf)
+
+Chapter 2 Frobenius algebras. Page 78
+
+The explanation in this document will be based on the categorical view, we will not consider explanations using linear algebra
