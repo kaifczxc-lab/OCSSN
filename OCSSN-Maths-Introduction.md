@@ -4,7 +4,7 @@ Author: [siritoriyowai](https://github.com/kaifczxc-lab)
 
 The connection between the code and the mathematics can be found in the main README document, specifically in [Section 1.1](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-11--a-complete-analysis-of-each-variable-) & [Section 2](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-2--description-of-every-function-)
 
-This is not complete educational material. It contains the author's notes and strict definitions from sources. However, if the reader wants to gain a deeper understanding of the topic, they should study the sources that the author referenced throughout this document
+This is not complete educational material. It contains the author's notes and strict definitions from sources, some statements may require independent verification. However, if the reader wants to gain a deeper understanding of the topic, they should study the sources that the author referenced throughout this document
 
 You can find the meaning of the highlighted words and definitions in the reference section at the end of this document. Each such definition will be marked (1)–(10) and you can find it in the reference book using the same number.
 

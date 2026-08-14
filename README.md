@@ -6,6 +6,8 @@ Author: [siritoriyowai](https://github.com/kaifczxc-lab)
 
 Current stage: **Proof-of-Concept**
 
+This is a proof-of-concept implementation of a state-sum neural network inspired by 2D TQFT (however, the hypothesis that it learns a genuine topological invariant was not confirmed in the current setup)
+
 This report focuses on the architectural Proof of Concept, **large-scale benchmarks will be provided in future iterations**
 
 Note that, the author doesn't know how to name this model correctly, so the name OCSSN is a tribute to the work that **inspired this project**
@@ -14,7 +16,13 @@ Note that, the author doesn't know how to name this model correctly, so the name
 
 ### Important Note (August 12, 2026)
 
-The value of the current work is unknown. The results in the version of the [code with the shortcut fix](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/fssn_build_main_with_shortcut_fix.py) degenerate into random guessing for all models. [Section 3](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects#section-3--summary-) describes the results of [the version of the code without the shortcut fix](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/fssn_build_main.py). To put it more bluntly, this shortcut was found by chance using LogisticRegression from sklearn.linear_model, which makes it very difficult to say anything about it at this point. Even so, in theory, the model provides greater gains compared to others, and this remains an open question. The author will resolve and describe this open question. For now, as of 8/12/26, we are at this stage. At a minimum, I would like to say that the situation may change with possible changes to the model parameters (such as algebra in M), that is. What the author wants to say is that the work has not yet yielded an absolutely negative result. In my opinion, the "OCSSN class" can be modified in a huge number of ways, all of which have not yet been tested and have not been found
+The results of the initial experiments should be interpreted with care, a diagnostic check using a simple logistic regression baseline on the number of triangles (mesh_tris) revealed that the dataset contained a shortcut: the size of the triangulation alone already separates the classes with high accuracy; after balancing the dataset to remove this shortcut, the accuracy of all tested models (OCSSN, GNN, TNN) dropped to near chance
+
+This indicates that the current version of OCSSN does not yet learn a strict topological invariant; instead, it may have relied on spurious statistical patterns in the original data, however, this is not a final negative result for the overall approach, the architecture admits many possible modifications (e.g., different choices of the Frobenius algebra in M, closed state-sum, different parameterizations), which have not been explored
+
+Section 3 reports results from the unmodified dataset, the balanced version is available separately, the question of whether OCSSN can be made to learn genuine topology remains open
+
+A lot of dataset options, settings, and so on have not been tested, and the work will continue
 
 ---
 
