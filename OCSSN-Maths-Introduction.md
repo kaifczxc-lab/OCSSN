@@ -440,8 +440,10 @@ $$
 
 These two notions are provisory (but convenient for [3] Lemma 2.1.12); the important notion is this: the pairing $\beta \colon V \otimes W \to k$ is simply called **nondegenerate** if it is simultaneously nondegenerate in $V$ and in $W$.
 
+<img width="571" height="283" alt="tqft-diagram" src="https://github.com/user-attachments/assets/bb214792-adda-49e1-9f4d-1de4dc17cafa" />
 
-(add diagram here)
+Image from [ncatlab.org/Frobenius+Algebras](https://ncatlab.org/nlab/show/Frobenius+algebra)
+
 
 ### Commutative Frobenius algebras
 
