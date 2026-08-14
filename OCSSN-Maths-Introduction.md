@@ -396,6 +396,8 @@ For what we need frobenius algebras?
 
 Recently, it has been seen that they play an important role in the algebraic treatment and axiomatic foundation of topological quantum field theory. A commutative Frobenius algebra determines uniquely (up to isomorphism) a (1+1)-dimensional TQFT. More precisely, the category of commutative Frobenius K-algebras is equivalent to the category of symmetric strong monoidal functors from 2-Cob (the category of 2-dimensional cobordisms between 1-dimensional manifolds) to $$Vect_K$$ (the category of vector spaces over K)
 
+(The following words will be taken from [[1]](https://ncatlab.org/nlab/show/Frobenius+algebra))
+
 **Definition 2.1. (see. [1])** A *Frobenius algebra* in a monoidal category(10) $(\mathcal{C}, \otimes, \mathbb{1})$ (for instance, $\mathbf{Vect}$ with the usual tensor product of vector spaces) consists of:
 
 * An object $A$;
