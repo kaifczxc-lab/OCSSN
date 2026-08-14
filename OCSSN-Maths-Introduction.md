@@ -10,19 +10,19 @@ You can find the meaning of the highlighted words and definitions in the referen
 
 ## Table of contents
 
-- [Section 0.1: Simplicial Complex]()
-- [Section 0.2: Piecewise Linear Manifolds]()
-- [Section 0.3: Euler's Characteristics]()
-- [Section 1: Manifolds Triangulation]()
-    - [Section 1.1: Pachner Moves]()
-- [Additional Section 1: Very basics of category theory]()
-    - [Additional Section 1.1: Functors]()
-- [Section 2: Commutative Frobenius Algebras]()
-    - [Section 2.1: What is a symmetrical monoidal category?]()
-    - [Section 2.2: What is a symmetric monoidal functor $Z: 2Cob \to Vect_K$?]()
-    - [Section 2.3: What is a cobordisms/2Cob?]()
-    - [Section 2.4: Categorical View on Commutative Frobenius Algebras]()
-- [Section 3: Reference Section]()
+- [Section 0.1: Simplicial Complex](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-01--simplicial-complex-)
+- [Section 0.2: Piecewise Linear Manifolds](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-02--piecewise-linear-manifolds-)
+- [Section 0.3: Euler's Characteristics](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-03--eulers-characteristics-)
+- [Section 1: Manifolds Triangulation](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-1--manifolds-triangulation-)
+    - [Section 1.1: Pachner Moves](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-11--pachner-moves-)
+- [Additional Section 1: Very basics of category theory](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#additional-section-1--very-basics-of-category-theory-)
+    - [Additional Section 1.1: Functors](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#additional-section-11--functors-)
+- [Section 2: Commutative Frobenius Algebras](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-2--commutative-frobenius-algebras-)
+    - [Section 2.1: What is a symmetrical monoidal category?](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-21-what-is-a-symmetrical-monoidal-category-)
+    - [Section 2.2: What is a symmetric monoidal functor $Z: 2Cob \to Vect_K$?](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-22--what-is-a-symmetric-monoidal-functor-z-2cob-to-vect_k-)
+    - [Section 2.3: What is a cobordisms/2Cob?](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-23--what-is-a-cobordisms2cob-)
+    - [Section 2.4: Categorical View on Commutative Frobenius Algebras](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-24--categorical-view-on-commutative-frobenius-algebras-)
+- [Section 3: Reference Section](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md#section-3--reference-section-)
 
 
 
