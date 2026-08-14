@@ -78,6 +78,8 @@ Main subject is: Higher Mathematics (Topology. Linear Algebra. Topological Quant
 
 * [7] ["Frobenius Algebras and 2D Topological Quantum Field Theories" By Joachim Kock](https://math.mit.edu/~hrm/palestine/koch-frobenius-algebras.pdf)
 
+The author also prepared a short explanation of the main mathematical aspects of this work, can be found [here](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/OCSSN-Maths-Introduction.md)
+
 Before proceeding, some clarifications should be made, the model's name contains "Open-Closed State Sum" but **not TQFT/Frobenius/Topological**, this is because the model is a partial combination of these theories, in a form suitable for a **dynamically learning algorithm**
 
 That is: 
