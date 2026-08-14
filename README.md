@@ -1,6 +1,6 @@
 # Open-Closed State-Sum Network
 
-**Independent Study in Topological Deep Learning, 2D TQFT, and Topology. Work classified as Research Report**
+**Independent Study in Machine Learning, 2D TQFT, and Topology. Work classified as Research Report**
 
 Author: [siritoriyowai](https://github.com/kaifczxc-lab)
 
@@ -67,6 +67,8 @@ Main subject is: Higher Mathematics (Topology. Linear Algebra. Topological Quant
 * [5] ["Elementary Topology. Problem Textbook" By O. Ya. Viro, O. A. Ivanov, N. Yu. Netsvetaev, V. M. Kharlamov](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/viro.pdf)
 
 * [6] [Tom Leinster (2016): Basic Category Theory](https://arxiv.org/abs/1612.09375)
+
+* [7] ["Frobenius Algebras and 2D Topological Quantum Field Theories" By Joachim Kock](https://math.mit.edu/~hrm/palestine/koch-frobenius-algebras.pdf)
 
 Before proceeding, some clarifications should be made, the model's name contains "Open-Closed State Sum" but **not TQFT/Frobenius/Topological**, this is because the model is a partial combination of these theories, in a form suitable for a **dynamically learning algorithm**
 
@@ -148,7 +150,8 @@ Because OCSSN is also a kind of tensor-based model, there is a known issue arise
 
     * Where does it come from? It is tensor of structure constants of group algebra $\mathbb{C}[\mathbb{Z}_d]$ over a field $\mathbb{C}$ (or $\mathbb{R}$), it defines the multiplication in the basis of group elements, more information can be found [here](https://en.wikipedia.org/wiki/Structure_constants), this tensor is mentioned there as "$c_{ij}{}^{k}$"
 
-* eps_r (counit): In 2D TQFT, any multiplication operation requires a corresponding linear functional (counit), which in this model is represented by eps_r
+* eps_r (counit): In 2D TQFT, any multiplication operation requires a corresponding linear functional (counit), which in this model is represented by eps_r. For complete details, see [[7]](https://math.mit.edu/~hrm/palestine/koch-frobenius-algebras.pdf)
+), pp. 106–107, Section 2.3
 
 * eps_v (counit): We need to build **non-degenerate symmetric invariant pairing g** (=beta) because we wrap eps_r in an exponent to ensure that eps is a positive number, otherwise if eps is close to 0 or negative, beta may become singular, but this doesnt mean the torch.linalg.inv cant be singular, but it happens noticeably less frequently than if we did not apply the exponent
 
@@ -498,6 +501,8 @@ def converter_for_tnn(tris, N=64):
 
 # Section 3 | Summary |
 
+(These results are reproducible only on the version of the [code without the shortcut fix](https://github.com/kaifczxc-lab/OCSSN/blob/SiritoriProjects/fssn_build_main.py))
+
 Current stage and current PoC test don't give all understanding about OCSSN's power, because of that, the results presented here should be viewed as preliminary
 
 All results can be found [here](https://github.com/kaifczxc-lab/OCSSN/tree/SiritoriProjects/summary-tests-logs)
@@ -612,7 +617,7 @@ If you want to see more examples with other shapes, you can do this by changing 
 
 ## Pachner 1-3 Move Visualization on Octahedron
 
-<img width="48%" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img  width="48%" alt="after(1)" src="https://github.com/user-attachments/assets/3193a312-56a9-4b23-b667-e2f2ebe88851" />
+<img width="48%" alt="before(2)" src="https://github.com/user-attachments/assets/80bdf993-19d7-4802-b60d-f88dbb3de3a5" /> <img width="48%" alt="after(2)" src="https://github.com/user-attachments/assets/6f7d9253-1df4-4b2c-87e8-4c05bc25c871" />
 
 ---
 
