@@ -398,21 +398,9 @@ Recently, it has been seen that they play an important role in the algebraic tre
 
 (The following words will be taken from [[1]](https://ncatlab.org/nlab/show/Frobenius+algebra))
 
-**Definition 2.1. (see. [1])** A *Frobenius algebra* in a monoidal category(10) $(\mathcal{C}, \otimes, \mathbb{1})$ (for instance, $\mathbf{Vect}$ with the usual tensor product of vector spaces) consists of:
+**Definition 2.1. (see. [1])** Let $(\mathcal{C}, \otimes, \mathbb{1})$ be a monoidal category (for our purposes, $\mathrm{Vect}$ with the usual tensor) consist of an object $A$, and with following morphisms: **unit** $\eta \colon \mathbb{1} \to A$ ; **counit** $\varepsilon \colon A \to \mathbb{1}$ ; **multiplication** $\mu \colon A \otimes A \to A$ ; **comultiplication** $\delta \colon A \to A \otimes A$, subject to three conditions is the pair $(A, \mu, \eta)$ must form a monoid (an associative algebra when $\mathcal{C} = \mathbf{Vect}$) ; the pair $(A, \delta, \varepsilon)$ must form a comonoid (a coassociative coalgebra when $\mathcal{C} = \mathrm{Vect}$); and the two structures must satisfy the Frobenius law:
 
-* An object $A$;
-* The following morphisms:
-  * **(unit)** $\eta \colon \mathbb{1} \to A$,
-  * **(counit)** $\varepsilon \colon A \to \mathbb{1}$,
-  * **(multiplication)** $\mu \colon A \otimes A \to A$,
-  * **(comultiplication)** $\delta \colon A \to A \otimes A$,
-
-such that:
-
-1. $(A, \mu, \eta)$ is a monoid (an associative algebra when $\mathcal{C} = \mathbf{Vect}$);
-2. $(A, \delta, \varepsilon)$ is a comonoid (a coassociative coalgebra when $\mathcal{C} = \mathbf{Vect}$);
-3. The **Frobenius laws** hold:
-   $$(\mathrm{id}_A \otimes \mu) \circ (\delta \otimes \mathrm{id}_A) = \delta \circ \mu = (\mu \otimes \mathrm{id}_A) \circ (\mathrm{id}_A \otimes \delta)$$
+$$(\mathrm{id}_A \otimes \mu) \circ (\delta \otimes \mathrm{id}_A) = \delta \circ \mu = (\mu \otimes \mathrm{id}_A) \circ (\mathrm{id}_A \otimes \delta)$$
 
 
 Pairing definition (see. [3] *2.1.9 Pairings of vector spaces*): A bilinear pairing – or just a pairing – of two vector spaces $V$ and $W$ is, by definition, a linear map $\beta \colon V \otimes W \to k$. 
